@@ -1,0 +1,23 @@
+Apache:
+Es un servidor web usado para transferir datos de hipertexto bajo el protocolo http, es el mas usado actualmente gracias a que es
+opensource y a su gran comunidad, ademas de ser multiplataforma.
+
+Nginx:
+Es un servidor web el cual cada vez esta extendiedo mas su uso, la diferencia con apache es que es un servidor web/proxy inverso lo que
+hace que sea mas ligera, también puede ser usado como un proxy para protocolos de correo electronico IMAP/POP3,al igual que apache 
+este también es opensource y multiplataforma.
+
+Thttpd:
+Es un servidor web usado principalmente para servir grandes volumenes de información estatica debido a que maneja solo los requerimientos
+minimos de un servidor http lo cual lo hace muy ligero. Al igual que lo anteriores también es opensource, sin embargo este solo se
+encuentra disponible para sistemas Unix.
+
+Cherokee:
+Es un servidor web multiplataforma que tiene como objetivo ser rapido y funcional, a pesar de tener mas rendimiento que apache no
+tiene su versatilidad. Esta escrito en C y al igual que los anteriores es opensource y multiplataforma.
+
+Node.js:
+Se trata de un interprete de javascript basado en el motor V8 de google que se encuentra en la capa del servidor y se basa en una 
+arquitectura basada en eventos, este permite el desarrollo de programas altamente escalables. El codigo javascript por lo tanto es 
+ejecutado en el servidor y no en el navegador del usuario. Por otro lado Node.js funciona con un unico hilo de ejecución lo que permite
+que se puedan ejecutar un gran numero de procesos concurrentes sin tener que realizar cambios de contexto.
