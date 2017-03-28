@@ -1,0 +1,9 @@
+
+Shoal: Es un framework dinamico y escalable basado en java que provee de una infraestructura con tolerancia a fallos, confiable
+que proporciona disponibilidad. Puede ser conectado en un servidor de aplicaciones GlassFish.
+
+PM2: Es un gestor de procesos para node.js, permite mantener las aplicaciones en ejecucion y reiniciarlas sin que se produzca
+tiempos de inactividad, también facilita las tareas del administrador del sistema.
+
+Linux-Ha: Es un proyecto que provee una solución cluster de alta disponibilidad para Linux, FreeBSD, OPENBSD, Solaris y Mac OS X que promueve
+fiabilidad disponibilidad y servicialidad. Su principal componente es Heartbeat.
