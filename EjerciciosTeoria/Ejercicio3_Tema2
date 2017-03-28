@@ -1,0 +1,10 @@
+Top:
+Muestra la lista de procesos ordenándolos por el uso de la CPU y mostrando el PID, usuario, %CPU y %MEM.
+
+Nagios:
+Es un sistema de monitorización de código abierto, vigila el hardware y los servicios software que se especifiquen, alertando cuando
+el comportamiento de los mismos no es el esperado.
+
+Ganglia:
+Es una herramienta de monitorización escalable y distribuida para sistemas de alto rendimiento, clusters y redes. Este software
+permite recoger estadísticas de diferentes métricas como por ejemplo los promedios de carga de la CPU. 
