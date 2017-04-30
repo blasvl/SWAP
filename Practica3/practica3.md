@@ -6,7 +6,7 @@ Para realizar esto en primer lugar tendremos que crear una nueva maquina virtual
   *sudo systemctl start nginx*  
   
 Usaremos la configuración dada en la practica para que nginx reparta la carga mediante el algoritmo round-robin, a continuación se muestra una imagen con los datos de la maquina.  
-![Datos Nginx](https://github.com/blasvl/SWAP/tree/master/Practica3/img/datos_nginx.png)    
+![Datos Nginx](https://github.com/blasvl/SWAP/tree/master/Practica3/img/datos_nginx.png "Datos Nginx")    
 Como vemos la ip del balanceador es 190.168.1.102, le haremos varias peticiones mediante curl.  
 [alt text](https://github.com/blasvl/SWAP/tree/master/Practica3/img/balanceo_nginx.png)    
 Podemos ver como va alternando la petición entre las dos maquinas al estar usando el algoritmo round-robin.  
