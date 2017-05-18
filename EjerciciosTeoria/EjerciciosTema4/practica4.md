@@ -46,7 +46,7 @@ Por ultimo los algoritmos usados por Citrix Netscaler son:
   
 ## Ejercicio T4.7:
 #### Buscar información sobre métodos y herramientas para implementar GSLB.
-Una forma es hacer uso de de Netscaler, los comando a ejecutar para realizar su configuración son los siguientes:  
+Una forma es hacer uso de de Netscaler, los comandos a ejecutar para realizar su configuración son los siguientes:  
   
 - enable ns feature gslb
 - add gslb site site-US LOCAL 10.3.1.101
