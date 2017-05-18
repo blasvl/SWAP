@@ -42,4 +42,20 @@ Por ultimo los algoritmos usados por Citrix Netscaler son:
 - Least Packets
 - Custom load
 - Token 
-- LRTM
+- LRTM  
+  
+## Ejercicio T4.7:
+#### Buscar información sobre métodos y herramientas para implementar GSLB.
+Una forma es hacer uso de de Netscaler, los comando a ejecutar para realizar su configuración son los siguientes:  
+  
+- enable ns feature gslb
+- add gslb site site-US LOCAL 10.3.1.101
+- add gslb site site-MX REMOTE 172.16.1.101
+- add gslb site site-CO REMOTE 192.168.1.101
+- add gslb vserver gslb-lb HTTP
+- add gslb service gslb_SVC30 172.16.1.100 HTTP 80 -siteName site-MX
+- add gslb service gslb_SVC10 10.3.1.100 HTTP 80 -siteName site-US
+- add gslb service gslb_SVC20 192.168.1.100 HTTP 80 -siteName site-CO
+- bind gslb vserver gslb-lb -serviceName gslb_SVC10
+- bind gslb vserver gslb-lb -serviceName gslb_SVC20
+- bind gslb vserver gslb-lb -serviceName gslb_SVC30
