@@ -22,7 +22,7 @@ para poder realizar la petición.
 En primer lugar crearemos el script.  
 ![alt text](img/script.png)  
   
-Al comienzo del mismo eliminamos las reglas que tengamos por defecto y a continuación abrimos los diferentes puertos, que serán  
+Al comienzo del mismo eliminamos las reglas que tengamos por defecto y a continuación abrimos los diferentes puertos, que serán 
 el 22, el 80 y el 443.  
   
 A continuación haremos que el script se ejecute al inicio del sistema, para ello en primer lugar copiaremos el script a  
