@@ -15,7 +15,7 @@ Los algoritmos usados por KEMP LoadMaster son los siguientes:
 - Agent-Based Adaptive Balancing
 - Fixed weighting
 - Weighted response time
-- Source IP hash  
+- Source IP Hash 
   
 Los algoritmos usados por F5 - BIG IP son los siguientes:  
   
