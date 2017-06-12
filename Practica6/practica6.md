@@ -7,11 +7,7 @@ Usamos los comandos proporcionados para montar los discos, en la siguiente image
 Simulamos un fallo en uno de los discos. 
   
 ![alt text](img/fallodisco.png)  
-  
-Cambiaremos el maestro de la máquina esclavo y reiniciaremos mysql.  
-  
-![alt text](img/cambiando_master.png)  
-  
+ 
 Quitamos el disco que ha fallado en caliente.  
   
 ![alt text](img/quitadoencaliente.png)  
